@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="14e7a9dfa2134ed2be2a889e3c08f65b" Name="Diagram1">
+        <EntityTypeShape EntityType="assetDBModel.AssetDef" Width="1.5" PointX="3" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="assetDBModel.AssetMaster" Width="1.5" PointX="5.25" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="assetDBModel.Assettype" Width="1.5" PointX="0.75" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="assetDBModel.logintbl" Width="1.5" PointX="5.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="assetDBModel.PurchaseOrder" Width="1.5" PointX="8.25" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="assetDBModel.usertbl" Width="1.5" PointX="8" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="assetDBModel.VendorCreation" Width="1.5" PointX="3" PointY="7.25" IsExpanded="true" />
+        <AssociationConnector Association="assetDBModel.FK__AssetDef__ad_typ__38996AB5" ManuallyRouted="false" />
+        <AssociationConnector Association="assetDBModel.FK__AssetMast__am_ad__44FF419A" ManuallyRouted="false" />
+        <AssociationConnector Association="assetDBModel.FK__PurchaseO__pd_ad__3E52440B" ManuallyRouted="false" />
+        <AssociationConnector Association="assetDBModel.FK__AssetMast__am_at__4316F928" ManuallyRouted="false" />
+        <AssociationConnector Association="assetDBModel.FK__AssetMast__am_ma__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="assetDBModel.FK__PurchaseO__pd_ty__3F466844" ManuallyRouted="false" />
+        <AssociationConnector Association="assetDBModel.FK__VendorCre__vd_at__3B75D760" ManuallyRouted="false" />
+        <AssociationConnector Association="assetDBModel.FK__usertbl__u_id__1367E606" ManuallyRouted="false" />
+        <AssociationConnector Association="assetDBModel.FK__PurchaseO__pd_ve__403A8C7D" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
